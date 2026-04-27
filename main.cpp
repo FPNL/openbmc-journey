@@ -2,7 +2,7 @@
 #include <fstream>
 #include <unistd.h>
 
-const float WARN_THRESHOLD = 50.0f;
+const float WARN_THRESHOLD = 40.0f;
 
 float readCpuTemp() {
     std::ifstream file("/sys/class/thermal/thermal_zone0/temp");
